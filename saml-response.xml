@@ -1,0 +1,90 @@
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                ID="_24fe4d2d-fdf8-48ba-a69e-1f2b86ab61bf"
+                Version="2.0"
+                IssueInstant="2020-12-23T19:08:35.070Z"
+                Destination="https://localhost:8443/auth/realms/demo/broker/saml/endpoint"
+                >
+    <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://sts.windows.net/76db22f8-ca3e-4d0a-b5c1-795947fc8943/</Issuer>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+    </samlp:Status>
+    <Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion"
+               ID="_2456e19c-6cb8-452b-9057-5e0b96406600"
+               IssueInstant="2020-12-23T19:08:35.065Z"
+               Version="2.0"
+               >
+        <Issuer>https://sts.windows.net/76db22f8-ca3e-4d0a-b5c1-795947fc8943/</Issuer>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                <Reference URI="#_2456e19c-6cb8-452b-9057-5e0b96406600">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                    <DigestValue>6hHLFGvsGQaPRBVB88fywHJ871CxKnN0kw0UYV5nvpA=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>dRppJjeJqydr7IbDuDSJs+/FbHZ+kDjqgR+dflWPeuY5onGwKS4aiGt1h19cza8CzKRBiNT2gItW36keIvUkmACVHlxm2BXdtIMPN57jEGak+1s+H1RhbRA7yuSTCsJyMKf0pIipp77g6tO6Ok7qCDvpP8LUTgpBEAmy43BjTlxbrhbZmT7JVeulPlgRfhxPa/Hwc9rkJPJpwPpe1Rx3LELMXA6B6sjZqzd3sJL8UpRK2263OlifgVv2jPyrzPCLjTfD/6P67HYqCPpFw6g8JkjZLgqFmGxUr1DkLnPwxXV0QhA20EbvQi50SQj5qpnHBWXzOlQ6h4wnDj+4PmVgTQ==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIC8DCCAdigAwIBAgIQevq7p/1qg6lPq3JhFmpHKzANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMDEyMjIxNDIxNDRaFw0yMzEyMjIxNDIxMTRaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzehGqbhH9PV24E/lDJyHxZxfF+11nwRnqurlTwGK80WqiS+dnoR8yo0kOIFRzzUbE27eggu7y/E/zQ/s0q5zqOEjBThCIgSbgNtqO6CDQDFOutdf4I3fnTEpeQUD0X2kQsVfJZmK2j13tFwkQb16pxDJrlpXunsYBKxg639L/vm3f7isWLo3VpY96aAR0zMyGIaYis7EQJXm+LktEdYjv1aO4ul7IMGzExVeF3+yMZbuoLLkOyFvMxWWu68ByyhrT4rJ3HtQZDgIsOQ2U8hkz3g2OZNN0ZktEr0V0+7hU2O/eoH6ZpBhT0FbVNnm137Dd56AhB29wfgBlCr7CGjGsQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCy1gLAjzD7HWepHjRoYKBQQ+7FLDjqoT8GdE+49opLgKkdZeu8jjoBEr4j/YfhdobPqsz3pbiyCgRFMf67ZDjDAVhUdM3wlnPnapMDSZFHOL8uKny67mG4zWgDy3dwOyWWov+iFtCxtHTP0l3sRF9fM/GL/jjNAGb239Ovefvc1SERkb3gf+ppJUhk8OIhNA8CJBK6mAmUNnPFHOVF067okNl+quKKyd3cUZVqiwxxqmTSWnxJFL4afhNvULb2eyyElk8t1ZuFwEk+VNY2ra+bDfeSa8censjuFBUNHp02+ueaxUNLMm7xvNmlUENikXJFtKUVtdeym+l6sFUNzaqk</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+        <Subject>
+            <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">akash.solankey_gmail.com#EXT#@akashsolankeygmail.onmicrosoft.com</NameID>
+            <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <SubjectConfirmationData NotOnOrAfter="2020-12-23T20:08:34.920Z"
+                                         Recipient="https://localhost:8443/auth/realms/demo/broker/saml/endpoint"
+                                         />
+            </SubjectConfirmation>
+        </Subject>
+        <Conditions NotBefore="2020-12-23T19:03:34.920Z"
+                    NotOnOrAfter="2020-12-23T20:08:34.920Z"
+                    >
+            <AudienceRestriction>
+                <Audience>https://localhost:8443/auth/realms/demo</Audience>
+            </AudienceRestriction>
+        </Conditions>
+        <AttributeStatement>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/tenantid">
+                <AttributeValue>76db22f8-ca3e-4d0a-b5c1-795947fc8943</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/objectidentifier">
+                <AttributeValue>23a40e66-d439-45cf-b234-dd483350f365</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/displayname">
+                <AttributeValue>Akash Solanki</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/identityprovider">
+                <AttributeValue>live.com</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/claims/authnmethodsreferences">
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/unspecified</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname">
+                <AttributeValue>Akash</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname">
+                <AttributeValue>Solanki</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress">
+                <AttributeValue>akash.solankey@gmail.com</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name">
+                <AttributeValue>akash.solankey_gmail.com#EXT#@akashsolankeygmail.onmicrosoft.com</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AuthnStatement AuthnInstant="2020-12-23T19:07:40.464Z"
+                        SessionIndex="_2456e19c-6cb8-452b-9057-5e0b96406600"
+                        >
+            <AuthnContext>
+                <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+            </AuthnContext>
+        </AuthnStatement>
+    </Assertion>
+</samlp:Response>
